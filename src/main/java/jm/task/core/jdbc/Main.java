@@ -1,6 +1,7 @@
 package jm.task.core.jdbc;
 
 
+import jm.task.core.jdbc.service.UserService;
 import jm.task.core.jdbc.service.UserServiceImpl;
 
 
@@ -40,5 +41,5 @@ public class Main {
         System.out.println();
     }
 
-    private static final UserServiceImpl usi = new UserServiceImpl();
+    private static final UserService usi = new UserServiceImpl();
 }
